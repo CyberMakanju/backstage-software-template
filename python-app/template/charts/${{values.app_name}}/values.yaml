@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: makanju/${{values.app_name}}
   pullPolicy: IfNotPresent
-  tag: ${{values.app_name}}- ${{values.app.env}}-latest
+  tag: ${{values.app_name}}-${{values.app.env}}-latest
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
