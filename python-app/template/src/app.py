@@ -15,8 +15,7 @@ def details():
         'message': 'You are doing great, human@@!!2026 goal!@@!! <3',
         'deployed_on': 'kubernetes',
         'deployed_on': 'argocd'
-        'env': '${{values.app.env}}',
-        'app_name': '${{values.app_name}}'
+    
     })
 
 @app.route('/api/v1/healthz')
